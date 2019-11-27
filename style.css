@@ -1,0 +1,22 @@
+body{
+    background: black;
+    color: yellow;
+    letter-spacing: normal;
+    line-height: 2;
+    margin:auto
+}
+h1{
+    font-style: "Times New Roman";
+    font-size: 24pt;
+
+}
+p{
+    text-align: center;
+    font-family: Arial;
+}
+ul{
+    list-style: square;
+}
+h2{
+    text-decoration:underline;
+}
