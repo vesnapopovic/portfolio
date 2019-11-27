@@ -3,20 +3,35 @@ body{
     color: yellow;
     letter-spacing: normal;
     line-height: 2;
-    margin:auto
+    margin-left: 30%;
+    margin-right: 25%;
+    font-family: 'Cabin' sans-serif;
 }
 h1{
     font-style: "Times New Roman";
     font-size: 24pt;
+    text-align: center;
 
 }
-p{
-    text-align: center;
+.center{
+    
     font-family: Arial;
+    text-align: center;
 }
 ul{
     list-style: square;
 }
 h2{
     text-decoration:underline;
+}
+div{
+    text-align: center;
+}
+a{
+    color: orangered;
+}
+.lead{
+    font-style: italic;
+    font-weight: bold;
+    color: grey;
 }
