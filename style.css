@@ -4,7 +4,7 @@ body{
     letter-spacing: normal;
     line-height: 2;
     margin-left: 30%;
-    margin-right: 25%;
+    margin-right: 30%;
     font-family: 'Cabin' sans-serif;
 }
 h1{
@@ -25,7 +25,7 @@ h2{
     text-decoration:underline;
 }
 div{
-    text-align: center;
+    text-align: start;
 }
 a{
     color: orangered;
@@ -34,4 +34,21 @@ a{
     font-style: italic;
     font-weight: bold;
     color: grey;
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    border: 2px solid grey;
+    background: grey;
+padding:2px  8px;
+
+}
+nav{
+    text-align: center;}
+.komentar{
+    width: 300px;
+    height: 300px;;
+}
+.dugme{
+    text-align: center;
 }
