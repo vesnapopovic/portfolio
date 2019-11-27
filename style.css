@@ -39,8 +39,11 @@ nav a{
     margin-right: 20px;
     text-decoration: none;
     border: 2px solid grey;
-    background: grey;
+    background: yellow;
+    color:black;
+    font-weight: bold;
 padding:2px  8px;
+font-style: italic;
 
 }
 nav{
@@ -51,4 +54,11 @@ nav{
 }
 .dugme{
     text-align: center;
+}
+h1{
+    font-family: 'Calistoga' cursive;
+    border: 2px solid yellow;
+}
+.border{
+    border: 2px solid yellow;
 }
