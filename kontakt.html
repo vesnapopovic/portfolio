@@ -26,21 +26,31 @@
     <br>
     <br>
     <br>
-    <form>
+    <form method="POST" action="" name="nForma">
+
+        <label for="Ime i Prezime">Ime i preyime:</label>
+        <input type="text" id="iImePrezime" placeholder="unesite vase ime i prezime" required><br><br>
+        <label for="Telefon">Telefon:</label>
+        <input type="text" id="iTelefon" placeholder="unesite vase broj telefona" ><br><br>
+        <label for="e-mail">e-mail:</label>
+        <input type="email" id="iEmail" placeholder="unesite e-mail" required><br><br>
+        
+
         <p>ostavite poruku</p>
-        <textarea class="komentar" aria-label="input" placeholder="unesite vas komentar" rows="9"></textarea>
-        <p>Vas kontakt </p>
-        <textarea placeholder="unesite vas e-mail ili kontakt telefon" rows="1" aria-label="input"></textarea>
-        <br>
+        <textarea class="komentar" aria-label="input" placeholder="unesite vas komentar" rows="9" required></textarea><br>
+        <input type="checkbox" name="nKontaktiranje" id="" value=""> zelim da me kontaktirate...
+       
+        
+    
        <div class="dugme">
-           <button> done </button>
+           <button type="submit" id="iSubmit"> done </button>
        </div> 
     </form>
 
 
 
 
-
+<script src="kontakt.js"></script>
 </body>
 
 </html>
